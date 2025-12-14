@@ -1,50 +1,92 @@
-# Welcome to your Expo app 👋
+# 📊 Crypto Tracker App
 
-<img src="https://github.com/user-attachments/assets/b1c08457-f62b-4a19-9643-c1f2e2a6e03e" width="200" />
+A sleek and modern **Crypto Tracker App** that allows users to monitor real-time cryptocurrency prices, trends, and market performance in a clean and intuitive UI. Built with performance and simplicity in mind, this app is ideal for anyone who wants quick insights into the crypto market.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+* 📈 **Real-time Cryptocurrency Prices**
+* 💹 **Market Trends & Price Changes**
+* 🔍 **Search & Track Popular Coins**
+* 📱 **Clean, Mobile-friendly UI**
+* ⚡ **Fast and Responsive Performance**
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🖼️ App Screenshots
 
-In the output, you'll find options to open the app in a
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b1c08457-f62b-4a19-9643-c1f2e2a6e03e" width="220" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/user-attachments/assets/e74c80e8-2553-4e63-8b58-a121f9a79d21" width="220" />
+</p>
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠️ Tech Stack
 
-## Get a fresh project
+* **Frontend:** React Native / React (based on implementation)
+* **API:** Public Crypto Market API (e.g., CoinGecko / CoinMarketCap)
+* **Styling:** Modern UI components & custom styling
 
-When you're ready, run:
+---
+
+## 📦 Installation & Setup
 
 ```bash
-npm run reset-project
+# Clone the repository
+git clone https://github.com/jaiganesh2108/crypto-tracker-app.git
+
+# Navigate to the project directory
+cd crypto-tracker-app
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🔑 Environment Variables
 
-To learn more about developing your project with Expo, look at the following resources:
+If your API requires a key, create a `.env` file and add:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```env
+API_KEY=your_api_key_here
+```
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+## 🎯 Future Enhancements
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+* ⭐ Watchlist functionality
+* 🔔 Price alerts & notifications
+* 📊 Interactive charts
+* 🌙 Dark mode support
+* 🔐 Authentication & user profiles
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 🙌 Acknowledgements
+
+* Crypto market data providers
+* Open-source community
+
+---
+
+### ⭐ If you like this project, consider giving it a star!

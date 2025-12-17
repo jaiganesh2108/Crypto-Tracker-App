@@ -22,7 +22,7 @@ export default function Intro() {
         end={{ x: 1, y: 1 }}
         style={styles.bottomSection}
       >
-        <Text style={styles.text}>Welcome to Crypto Tracker!</Text>
+        <Text style={styles.text}>Welcome to Crypto Tracker! 📈</Text>
 
         <View style={styles.buttonContainer}>
 
@@ -43,8 +43,8 @@ export default function Intro() {
           >
             <Text style={styles.secondaryButtonText}>Sign Up</Text>
           </TouchableOpacity>
-
         </View>
+        <Text style={styles.belowText}>Let's get started!</Text>
       </LinearGradient>
     </View>
   );
@@ -57,16 +57,14 @@ const styles = StyleSheet.create({
   },
 
   topSection: {
-    height: 500,
-    backgroundColor: '#111827',
+    height: 450,
+    backgroundColor: '#51229cff',
     borderBottomLeftRadius: 80,
     borderBottomRightRadius: 80,
     alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: "flex-end",
     overflow: 'hidden',
     zIndex: 2,
-    borderWidth: 1,
-    borderColor: '#7C3AED',
   },
 
   topimage: {
@@ -126,4 +124,11 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
   },
+  belowText: {
+    fontSize:20,
+    color: "#ffff",
+    alignItems:"center",
+    justifyContent: "center",
+    marginTop:20,
+  }
 });

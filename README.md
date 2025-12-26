@@ -18,9 +18,11 @@ A sleek and modern **Crypto Tracker App** that allows users to monitor real-time
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e74c80e8-2553-4e63-8b58-a121f9a79d21" width="200" />
-  <img src="https://github.com/user-attachments/assets/19133737-0a29-435d-bb66-01046565869b" width="200" />
-  <img src="https://github.com/user-attachments/assets/8b3ed60f-84c0-4e80-828e-da7becc59eb9" width="200" />
-
+  <img src="https://github.com/user-attachments/assets/11b37327-3258-45f1-acb9-b968be38db15" width="200" />
+  <img src="https://github.com/user-attachments/assets/75ed00b4-b630-49bf-b9d2-7a41b24304e7" width="200" />
+  <img src="https://github.com/user-attachments/assets/3412c4f9-0a76-42ec-81f3-3e2b79b0b148" width="200" />
+  <img src="https://github.com/user-attachments/assets/a3e55d60-755e-4ef0-a561-4a545df9b650" width="200" />
+  <img src="https://github.com/user-attachments/assets/c63a0a7b-5444-443c-baf5-f353eacf4567" width="200" />
 </p>
 
 ---

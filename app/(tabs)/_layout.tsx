@@ -1,10 +1,22 @@
-import { Tabs } from "expo-router";
+import { Stack } from "expo-router";
 
-export default function TabsLayout() {
+export default function Layout() {
   return (
-    <Tabs>
-      <Tabs.Screen name="index" options={{ title: "Market" }} />
-      <Tabs.Screen name="explore" options={{ title: "Explore" }} />
-    </Tabs>
+    <Stack
+      screenOptions={{
+        headerStyle: {
+          backgroundColor: "#51229CFF",
+        },
+        headerTintColor: "#ffffff",
+        headerTitleStyle: {
+          fontWeight: "600",
+        },
+      }}
+    >
+      <Stack.Screen
+        name="index"
+        options={{ title: "Coins 🪙" }}
+      />
+    </Stack>
   );
 }

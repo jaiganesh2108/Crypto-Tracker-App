@@ -1,17 +1,17 @@
+import { AntDesign, FontAwesome } from "@expo/vector-icons";
+import { LinearGradient } from "expo-linear-gradient";
+import { useRouter } from "expo-router";
+import LottieView from "lottie-react-native";
 import {
-  View,
-  Text,
-  StyleSheet,
-  TextInput,
-  TouchableOpacity,
   KeyboardAvoidingView,
   Platform,
   ScrollView,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
 } from "react-native";
-import { useRouter } from "expo-router";
-import { LinearGradient } from "expo-linear-gradient";
-import { AntDesign, FontAwesome } from "@expo/vector-icons";
-import LottieView from "lottie-react-native";
 
 export default function Signup() {
   const router = useRouter();
@@ -123,13 +123,12 @@ const styles = StyleSheet.create({
   },
 
   lottie: {
-    width: 200,  
+    width: 180,  
     height: 100, 
   },
 
   overlay: {
     ...StyleSheet.absoluteFillObject,
-    backgroundColor: "rgba(0,0,0,0.35)",
   },
 
   bottomSection: {
